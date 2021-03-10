@@ -1,0 +1,132 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конструктор договора</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body>
+<div class="container ">
+    <h2 class="text-center">Конструктор договора</h2>
+    <div class="form-component p-3 bd-highlight border d-flex justify-content-center">
+        <form>
+            <div class="input-group mb-2">
+                <span class="input-group-text" id="basic-addon1">Ф.И.О</span>
+                <input type="text" class="form-control" id="fio" placeholder="Петров Семен Семенович" aria-label="fio" aria-describedby="basic-addon1" style="width: 300px" maxlength="44">
+            </div>
+            <div class="input-group mb-2">
+                <span class="input-group-text" id="basic-addon2">Адрес</span>
+                <input type="text" class="form-control" placeholder="Коммунистический просп., 32, микрорайон Западный" aria-label="address" aria-describedby="basic-addon2" id="address" maxlength="44">
+            </div>
+            <div class="input-group mb-2">
+                <span class="input-group-text" id="basic-addon3">Телефон</span>
+                <input class="form-control" placeholder="89181233212" type="tel" aria-label="tel" aria-describedby="basic-addon3" id="tel" maxlength="15">
+            </div>
+            <div class="input-group mb-2">
+                <span class="input-group-text" id="basic-addon4">Процент 1</span>
+                <input class="form-control" placeholder="12" type="text" aria-label="perc1" aria-describedby="basic-addon4" id="perc1" maxlength="3">
+            </div>
+            <div class="input-group mb-2">
+                <span class="input-group-text" id="basic-addon5">Процент 2</span>
+                <input class="form-control" placeholder="13" type="text" aria-label="perc2" aria-describedby="basic-addon5"id="perc2" maxlength="3">
+            </div>
+            <div class="input-group mb-2">
+                <span class="input-group-text" id="basic-addon6">Срок</span>
+                <input class="form-control" placeholder="30" type="text" aria-label="dueDate" aria-describedby="basic-addon6" id="dueDate" maxlength="3">
+            </div>
+            <label class="form-label">Таблица 1</label>
+                <div class="table1" >
+                    <div class="input-group mb-2">
+                        <span class="input-group-text" id="basic-addon7">Модель</span>
+                        <input class="form-control" placeholder="ULTIMATUM NEXT" type="text" aria-label="dueDate" aria-describedby="basic-addon7" id="model1" maxlength="51">
+                    </div>
+                    <div class="input-group mb-2">
+                        <span class="input-group-text" id="basic-addon8">Высота/Ширина/Петли</span>
+                        <input class="form-control height" placeholder="200" type="text" aria-label="dueDate" aria-describedby="basic-addon8" style="width: 20px" id="height1" maxlength="4">
+                        <input class="form-control width" placeholder="300" type="text" aria-label="dueDate" aria-describedby="basic-addon8" style="width: 20px" id="width1" maxlength="4">
+                        <select class="form-select loops" aria-label="Default select example" aria-describedby="basic-addon8" style="width: 20px" id="loops1">
+                            <option value="L" selected>L</option>
+                            <option value="R">R</option>
+                        </select>
+                    </div>
+                    <div class="input-group mb-2">
+                        <span class="input-group-text" id="basic-addon9">Н.отделка/Н.рис.</span>
+                        <input class="form-control nOtdelka" placeholder="Наружняя Отделка" type="text" aria-label="dueDate" aria-describedby="basic-addon9" style="width: 50px" id="nOtdelka1" maxlength="25">
+                        <input class="form-control nColor" placeholder="Венге" type="text" aria-label="dueDate" aria-describedby="basic-addon9" style="width: 50px" id="nColor1" maxlength="12">
+                    </div>
+                    <div class="input-group mb-2">
+                        <span class="input-group-text" id="basic-addon10">В.отделка/В.рис.</span>
+                        <input class="form-control vOtdelka" placeholder="Внутренняя отделка" type="text" aria-label="dueDate" aria-describedby="basic-addon10" style="width: 50px" id="vOtdelka1" maxlength="24">
+                        <input class="form-control vColor" placeholder="Венге" type="text" aria-label="dueDate" aria-describedby="basic-addon9" style="width: 50px" id="vColor1" maxlength="12">
+                    </div>
+                    <div class="input-group mb-2">
+                        <span class="input-group-text" id="basic-addon11">Фурнитура</span>
+                        <input class="form-control" placeholder="Фурнитура" type="text" aria-label="furn" aria-describedby="basic-addon11" id="furniture1" maxlength="5">
+                    </div>
+                    <div class="input-group mb-2">
+                        <span class="input-group-text" id="basic-addon12">Другое</span>
+                        <input class="form-control" placeholder="Другое..." type="text" aria-label="another" aria-describedby="basic-addon12" id="other1" maxlength="44">
+                    </div>
+                    <div class="input-group mb-2">
+                        <span class="input-group-text" id="basic-addon123">Кол-во/Цена</span>
+                        <input class="form-control kol1" placeholder="1" type="text" aria-label="kol1" aria-describedby="basic-addon123" style="width: 50px" id="kol1" maxlength="3">
+                        <input class="form-control price1" placeholder="32000" type="text" aria-label="price1" aria-describedby="basic-addon123" style="width: 50px" id="price1" maxlength="6">
+                    </div>
+                </div>
+
+
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="tableVisibility">
+                <label class="form-check-label" for="tableVisibility">Вторая позиция</label>
+            </div>
+
+            <div class="table2 d-none" id="table2">
+                <label class="form-label">Таблица 2</label>
+                <div class="input-group mb-2">
+                    <span class="input-group-text" id="basic-addon13">Модель</span>
+                    <input class="form-control" placeholder="ULTIMATUM NEXT" type="text" aria-label="dueDate" aria-describedby="basic-addon13" id="model2" maxlength="51">
+                </div>
+                <div class="input-group mb-2">
+                    <span class="input-group-text" id="basic-addon14">Высота/Ширина/Петли</span>
+                    <input class="form-control height2" placeholder="200" type="text" aria-label="dueDate" aria-describedby="basic-addon14" style="width: 20px" id="height2" maxlength="4">
+                    <input class="form-control width2" placeholder="300" type="text" aria-label="dueDate" aria-describedby="basic-addon14" style="width: 20px" id="width2" maxlength="4">
+                    <select class="form-select loops2" aria-label="Default select example" aria-describedby="basic-addon14" style="width: 20px" id="loops2">
+                        <option value="L" selected>L</option>
+                        <option value="R">R</option>
+                    </select>
+                </div>
+                <div class="input-group mb-2">
+                    <span class="input-group-text" id="basic-addon15">Н.отделка/Н.рис.</span>
+                    <input class="form-control nOtdelka2" placeholder="Наружняя Отделка" type="text" aria-label="dueDate" aria-describedby="basic-addon15" style="width: 50px" id="nOtdelka2" maxlength="25">
+                    <input class="form-control nColor2" placeholder="Венге" type="text" aria-label="dueDate" aria-describedby="basic-addon9" style="width: 50px" id="nColor2" maxlength="12">
+                </div>
+                <div class="input-group mb-2">
+                    <span class="input-group-text" id="basic-addon16">В.отделка/В.рис.</span>
+                    <input class="form-control vOtdelka2" placeholder="Внутренняя отделка" type="text" aria-label="dueDate" aria-describedby="basic-addon16" style="width: 50px" id="vOtdelka2" maxlength="24">
+                    <input class="form-control vColor2" placeholder="Венге" type="text" aria-label="dueDate" aria-describedby="basic-addon16" style="width: 50px" id="vColor2" maxlength="12">
+                </div>
+                <div class="input-group mb-2">
+                    <span class="input-group-text" id="basic-addon17">Фурнитура</span>
+                    <input class="form-control" placeholder="Фурнитура" type="text" aria-label="furn" aria-describedby="basic-addon17" id="furniture2" maxlength="5">
+                </div>
+                <div class="input-group mb-2">
+                    <span class="input-group-text" id="basic-addon18">Другое</span>
+                    <input class="form-control" placeholder="Другое..." type="text" aria-label="another" aria-describedby="basic-addon18" id="other2" maxlength="44">
+                </div>
+                <div class="input-group mb-2">
+                    <span class="input-group-text" id="basic-addon1233">Кол-во/Цена</span>
+                    <input class="form-control kol2" placeholder="2" type="text" aria-label="kol2" aria-describedby="basic-addon123" style="width: 50px" id="kol2" maxlength="3">
+                    <input class="form-control price2" placeholder="42000" type="text" aria-label="price2" aria-describedby="basic-addon123" style="width: 50px" id="price2" maxlength="6">
+                </div>
+            </div>
+            <div class="input-group mb-2">
+                <span class="input-group-text" id="basic-addon112">Предоплата</span>
+                <input class="form-control" placeholder="43000" type="text" aria-label="prepayment" aria-describedby="basic-addon11" id="prepayment" maxlength="5">
+            </div>
+            <button type="button" class="btn btn-primary btn-lg" id="print">Печать</button>
+        </form>
+    </div>
+</div>
+<script type="module" src="main.js"></script>
+</body>
+</html>
